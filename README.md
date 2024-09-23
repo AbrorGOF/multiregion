@@ -31,11 +31,12 @@ npm run dev
 1. List method GET `api/districts`
 2. Create method POST 
  ```
-    url: "/districts/create"
+    url: "api/districts/create"
     body:
     {
 	    "name": "test"
     }
 ```
-3. Delete method DELETE `/districts/{district}`
+3. Delete method DELETE `api/districts/{district}`
+`{district}` id from `api/districts` method
 
